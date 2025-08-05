@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabReport.ai - Take Your Health Into Your Own Hands</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        secondary: '#0D9488',
+                        accent: '#059669'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-gray-100">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                    <span class="text-2xl font-bold text-gray-900">LabReport.ai</span>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+                    <a href="#languages" class="text-gray-600 hover:text-gray-900">Languages</a>
+                    <a href="#privacy" class="text-gray-600 hover:text-gray-900">Privacy</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto text-center max-w-6xl">
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+                Take your health into your own hands
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+                Upload your lab reports and get instant, easy-to-understand explanations in your preferred language. 
+                Your privacy is our priority - no personal information is stored.
+            </p>
+            
+            <!-- CTA Button -->
+            <div class="mb-16">
+                <a href="/app" class="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white text-xl font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Try the Free AI Tool
+                </a>
+            </div>
+
+            <!-- Key Stats -->
+            <div class="grid md:grid-cols-3 gap-8 mb-20">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">8</div>
+                    <div class="text-gray-600">Languages Supported</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-teal-600 mb-2">100%</div>
+                    <div class="text-gray-600">Privacy Protected</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-green-600 mb-2">Instant</div>
+                    <div class="text-gray-600">AI Analysis</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Get Clear, Human-Friendly Explanations</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Instantly receive a plain-language summary of your lab results — easy to understand, 
+                    even without a medical background.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center p-8 rounded-xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Smart Analysis</h3>
+                    <p class="text-gray-600">AI-powered extraction and explanation of your lab values in plain English</p>
+                </div>
+
+                <div class="text-center p-8 rounded-xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Privacy First</h3>
+                    <p class="text-gray-600">Personal information is automatically removed and never stored</p>
+                </div>
+
+                <div class="text-center p-8 rounded-xl border border-gray-100 hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">8 Languages Available</h3>
+                    <p class="text-gray-600">Get clear explanations in your preferred language</p>
+                </div>
+            </div>
+
+            <!-- Example Summary -->
+            <div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-xl">
+                <h4 class="text-lg font-semibold text-gray-900 mb-4 text-center">Example Summary:</h4>
+                <div class="bg-white p-6 rounded-lg border-l-4 border-blue-500">
+                    <p class="text-gray-700 italic text-lg leading-relaxed">
+                        "Your blood sugar levels are in the normal range, which is great! Your cholesterol is slightly higher than recommended - this might mean eating more vegetables and less fried food could help. Your kidney function looks excellent."
+                    </p>
+                    <div class="mt-4 flex flex-wrap gap-4 text-sm text-gray-500">
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-1 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            No medical jargon
+                        </span>
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-1 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Clear recommendations
+                        </span>
+                        <span class="flex items-center">
+                            <svg class="w-4 h-4 mr-1 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Easy to understand
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="py-20 bg-gradient-to-r from-blue-50 to-teal-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">🌍 Available in 8 Languages</h2>
+            <p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                Your report summary is available in your preferred language, making health information accessible to everyone.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇺🇸</div>
+                    <div class="font-semibold text-gray-900">English</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇪🇸</div>
+                    <div class="font-semibold text-gray-900">Spanish</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇫🇷</div>
+                    <div class="font-semibold text-gray-900">French</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇸🇦</div>
+                    <div class="font-semibold text-gray-900">Arabic</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇷🇺</div>
+                    <div class="font-semibold text-gray-900">Russian</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇧🇩</div>
+                    <div class="font-semibold text-gray-900">Bengali</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇮🇳</div>
+                    <div class="font-semibold text-gray-900">Hindi</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <div class="text-2xl mb-2">🇵🇰</div>
+                    <div class="font-semibold text-gray-900">Urdu</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Your Privacy is Our Priority</h2>
+                <p class="text-xl text-gray-600 mb-12">
+                    We automatically remove all personal health information and never store your data.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-teal-50 p-8 rounded-xl border border-teal-200">
+                        <div class="w-12 h-12 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-teal-900 mb-3">Automatic PHI Removal</h3>
+                        <p class="text-teal-800">
+                            Names, dates of birth, medical record numbers, and other personal identifiers are automatically detected and removed before analysis.
+                        </p>
+                    </div>
+
+                    <div class="bg-blue-50 p-8 rounded-xl border border-blue-200">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-blue-900 mb-3">No Data Storage</h3>
+                        <p class="text-blue-800">
+                            Your lab reports and personal information are never stored on our servers. Analysis happens in real-time and data is immediately discarded.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-teal-600">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Ready to Understand Your Lab Results?</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Join thousands who have already taken control of their health with clear, easy-to-understand lab report explanations.
+            </p>
+            <a href="/app" class="inline-flex items-center px-8 py-4 bg-white text-blue-600 text-xl font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+                </svg>
+                Upload Your Lab Report Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                        <span class="text-2xl font-bold">LabReport.ai</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Making lab results understandable for everyone, in any language.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Important Notice</h4>
+                    <p class="text-gray-400 text-sm">
+                        This tool provides educational information only and is not intended as medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical decisions.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Privacy</h4>
+                    <p class="text-gray-400 text-sm">
+                        We automatically remove all personal health information (PHI) and never store your data. Your privacy is completely protected.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">
+                    © 2025 LabReport.ai. Built with privacy and security in mind.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        // Simple mobile menu toggle if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add any interactive functionality here
+            console.log('LabReport.ai landing page loaded');
+        });
+    </script>
+</body>
+</html>
