@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import React, { useState } from 'react';
 import { FileText, Shield, Globe, BarChart3 } from 'lucide-react';
 import UploadInterface from './components/UploadInterface';
